@@ -42,9 +42,36 @@ h1, h2, h3, h4, h5, h6, button{
 #tickets-action .callout{
 	background-color: #5e7eb7;
 	color: #fff;
+	margin-bottom: 0;
 }
 
 #tickets-action .callout button{
 	border: 1px solid #fff;
 	color: #fff;
+}
+
+#lineup-container,
+#lineup-container .tabs,
+#lineup-container .tabs .tabs-title{
+	background-color: #9676af;
+	color: #fff;
+	padding: 1em 0;
+	border: 0;
+	text-transform: uppercase;
+}
+
+#lineup-container .tabs .tabs-title a{
+	font-size: 18px;
+	color: #a7fffb;
+	font-family: "Bree Serif", serif;
+}
+
+#lineup-container .tabs .tabs-title a:hover{
+	color: #fff;
+	background-color: #9676af;
+}
+
+.tabs-title{
+	display: inline-block;
+	float: none;
 }
