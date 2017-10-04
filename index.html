@@ -75,16 +75,30 @@
       <h3 class="text-center">Lineup</h3>
 
       <ul class="tabs text-center" data-tabs id="lineup-tabs">
-        <li class="tabs-title">
-          <a href="#">Viernes</a>
+        <li class="tabs-title is-active">
+          <a href="#panelViernes">Viernes</a>
         </li>
         <li class="tabs-title">
-          <a href="#">Sabado</a>
+          <a href="#panelSabado">Sabado</a>
         </li>
         <li class="tabs-title">
-          <a href="#">Domingo</a>
+          <a href="#panelDomingo">Domingo</a>
         </li>
       </ul>
+
+      <div class="tabs-content" data-tabs-content="lineup-tabs">
+        <div class="tabs-panel is-active" id="panelViernes">
+          Contenido Viernes
+        </div>
+
+        <div class="tabs-panel" id="panelSabado">
+          Contenido Sabado
+        </div>
+
+        <div class="tabs-panel" id="panelDomingo">
+          Contenido Domingo
+        </div>
+      </div>
     </section>
     <!-- /LineUp -->
 
